@@ -1,0 +1,38 @@
+* {
+    font-family: Calibri, serif;
+    text-align: center;
+}
+
+h1, #timeBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+}
+
+h1 {
+    top: 30%;
+    color: aqua;
+}
+
+#timeBox {
+    top: 50%;
+}
+
+.time {
+    color: white;
+}
+
+body {
+    background-color: #36393e;
+}
+
+footer {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    font-size: 3em;
+    color: #FF1493;
+}
